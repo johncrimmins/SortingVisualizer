@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer: By John Crimmins</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="row border bg-light shadow rounded mt-5 p-3">
+            <div class="col-lg text-center">
+                <h1>Sorting Visualizer</h1>
+                <h5 class="text-left">Controls</h5>
+                <div class="row">
+                    <div class="col-12 border shadow rounded d-inline">
+                        <label>Number of Lines:</label>
+                        <span class="slider"></span>
+                        <label>Sorting Algorithm:</label>
+                        <span class="dropdown"></span>
+                    </div>
+                </div>
+                <h5 class="text-left mt-3">Display</h5>
+                <div class="Display h-75 row mb-5 p-3">
+                    <div class="col-12 border shadow rounded d-inline">
+                        <canvas id="myCanvas" width="1000" height="600">
+                        </canvas>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary mt-3 mb-5">Sort</button>
+            </div>
+           
+        </div>
+    </div>
+    
+<script src="scripts.js"></script>
+</body>
+</html>
